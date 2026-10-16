@@ -19,7 +19,6 @@ lab_root = initialize_lab(cfg)
 
 st.title("🛡️ Ransomware Detection Lab")
 st.caption("Kali Linux · Behavioral detection · Safe simulations only")
-st.warning("Use only the configured lab directory. This prototype does not provide guaranteed prevention or complete process attribution.")
 
 pages = ["Overview", "Events & Alerts", "Safe Simulation", "Snapshots & Recovery", "Evaluation", "MITRE ATT&CK"]
 page = st.sidebar.radio("Navigation", pages)
