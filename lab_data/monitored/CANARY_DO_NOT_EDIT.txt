@@ -1,0 +1,1 @@
+Harmless canary marker. Touching this file creates a detection signal.\n
